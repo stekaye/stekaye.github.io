@@ -654,7 +654,11 @@ text-align: right;
 }
 .header-nav li {
   display: block;
-  margin-bottom: 1em;
+  margin: 0 0 1em;
+  padding: 0;
+}
+.header-nav li ~ li {
+  border: 0;
 }
 .header-nav li:first-child {
   margin-top: 1em;
