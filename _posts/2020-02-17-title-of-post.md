@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Sample Post
+title: More Dangerous Blog
+description: A dangerous site deserves a dangerous blog.
 postHero: /images/shark.jpg
 author: Michael Hartl
 authorTwitter: https://twitter.com/mhartl
