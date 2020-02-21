@@ -54,7 +54,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
   min-height: 100vh;
 }
 .content-container {
@@ -62,6 +62,10 @@ body {
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
 }
 h1 {
   font-size: 7vw;
@@ -388,15 +392,15 @@ h2 ~ p {
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
-  font-size: 1rem;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list > li {
   display: inline-block;
@@ -519,7 +523,7 @@ h2 ~ p {
 
 /* BLOG STYLES */
 .blog-recent {
-text-align: right;
+  text-align: right;
 }
 .blog-title-list {
   list-style: none;
@@ -563,7 +567,7 @@ text-align: right;
   margin-bottom: 1.5em;
 }
 .post {
-  width: 100%;
+  width: 100vh;
 }
 .post-content,
 .post-footer {
@@ -659,6 +663,7 @@ text-align: right;
 }
 .header-nav li ~ li {
   border: 0;
+  padding: 0;
 }
 .header-nav li:first-child {
   margin-top: 1em;
@@ -732,6 +737,16 @@ width: 100%;
 }
 .gallery .gallery-info {
   flex: 1;
+}
+
+/* MEDIA: RECENT STYLES */
+.page {
+  margin: 5vh;
+}
+.pull-left {
+float: none;
+margin: 1em;
+width: 85vw;
 }
 
 }
